@@ -1,0 +1,466 @@
+.color
+{
+    background-color: #1A187A;
+}
+.nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-text
+{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.clr
+{
+    background-color: #F6F6F6;
+    
+}
+
+.li
+{
+    color: #CFCFCF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+}
+.div
+{
+    
+    height: 472px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+    width: 100%;
+    background-color: #958AD4;
+    align-items: center;
+
+}
+.text1
+{
+    color: #25177B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-style:bold;
+    font-weight: 900;
+    line-height: 72px; 
+    letter-spacing: -0.72px;
+}
+.text2
+{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: -0.72px;
+}
+
+.text3
+{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    width: 380px;
+}
+
+.font
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.set
+{
+    display: flex;
+    gap: 5px;
+}
+
+
+
+.efect:hover
+{
+    font-size: 19px;
+    font-weight: 700;
+    border-left: 6px solid red;
+    line-height: 32px;
+    
+}
+
+/* After carosel*/
+.IMG
+{
+    width: 513px;
+    height: 343px; ;
+    background-image: url(/ipad.png);
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+}
+
+
+.IMG1
+{
+    width: 500px;
+    height: 272px;
+    background-image: url(/hero__gnfk5g59t0qe_xlarge_2x\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    flex-shrink: 0;
+}
+.IMG2
+{
+    width: 659.246px;
+    height: 429.212px;
+    background-image: url(/Group\ 6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+
+}
+
+.box
+{
+    display: flex;
+    height: 328px;
+    padding: 2%;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: stretch;
+    
+}
+.box1
+{
+    display: flex;
+    height: 272px;
+    padding:2%;
+    justify-content: flex-end;
+    align-items: center;
+    background: #ADC2D7
+    
+}
+.Right_box
+{
+    display: flex;
+    width: 50%;
+    height: 600px;
+    padding:auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1px;
+    background: #EDEDED;
+    padding-left: 6%;
+    
+    
+}
+.left
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.big_box
+{
+    display:flex;
+
+
+}
+/* end */
+
+.IMG3
+{
+    width: 421px;
+    height: 342px;
+    
+    background-image: url(/image\ 19.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+.IMG4
+{
+    width: 570px;
+    height: 357px;
+    
+    background-image: url(/c4e83cbf926e63efe881b44d767d0524.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.foot
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 160px 190px;
+    background-color: #0E071B;
+}
+
+
+
+
+@media screen and (max-width :410px) {
+
+    .efect
+    {
+        font-size : 12px;;
+    }
+    .efect:hover
+    {
+        font-size: 13px;
+        font-weight: 700;
+        border-left: 6px solid red;
+        line-height: 32px;
+        
+    }
+}
+@media screen and (max-width :1203px) {
+
+    .foot
+    {
+        display: flex;
+        justify-content: space-between;
+        padding: 160px 10px;
+        background-color: #0E071B;
+    }
+}
+@media screen and (max-width :748px) {
+
+    .IMG3
+    {
+        
+        width: 255px;
+        height: 207px;  
+        background-image: url(/image\ 19.png);
+        background-size: contain ;
+        background-repeat: no-repeat;
+    
+    }
+    .IMG4
+    {
+        width: 320px;
+        height: 240px;
+    
+        background-image: url(/c4e83cbf926e63efe881b44d767d0524.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+
+    .text1
+    {
+        color: #25177B;
+
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 63px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px;
+        letter-spacing: -0.63px;
+    }
+    .text2
+    {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 63px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px;
+        letter-spacing: -0.63px;
+    }
+
+    .text3
+    {
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        width: 303px;
+        line-height: 32px; 
+    }
+
+    .div
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+        height: 704px;
+        flex-shrink: 0;
+        background-color: #958AD4;
+    }  
+    
+    .foot
+    {
+        width: 100%;
+        display: flex;
+        padding:25px 0px ;
+        flex-direction: column;
+        align-items: center;
+        background-color: #0E071B;
+    }
+    .IMG
+    {
+        
+        width: 360px;
+        height: 341px;
+        background-image: url(/ipad.png);
+        background-size: cover;
+        background-position:top;
+        background-repeat: no-repeat;
+    }
+    .IMG1
+    {
+        width: 500px;
+        height: 272px;
+        background-image: url(/hero__gnfk5g59t0qe_xlarge_2x\ 1.png);
+        background-size: co;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        flex-shrink: 0;
+    }
+    .IMG2
+    {
+        width: 659.246px;
+        height: 429.212px;
+        background-image: url(/Group\ 6.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        
+    
+    }
+    .IMG
+    {
+        width: 300px;
+        height: 100%; ;
+        background-image: url(/ipad.png);
+        background-size: cover;
+        background-position:top;
+        background-repeat: no-repeat;
+    }
+    
+    
+    .IMG1
+    {
+        width: 260px;
+        height: 242px;
+        background-image: url(/hero__gnfk5g59t0qe_xlarge_2x\ 1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        
+    }
+    .IMG2
+    {
+        width: 275.945px;
+        height: 179.551px;
+
+        background-image: url(/Group\ 6.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        
+    
+    }
+    
+    .box
+    {
+        display: flex;
+        flex-direction: column;
+        height: 321px;
+        padding: 0%;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .box1
+    {
+        display: flex;
+        height: 242px;
+        padding: 0%;
+        align-items: center;
+        background: #ADC2D7
+        
+    }
+    .Right_box
+    {
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        padding:auto;
+        text-align: center;
+        align-items: center;
+        background: #EDEDED;
+        width: 100%;
+        
+        
+    }
+    .left
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0%;
+        
+    }
+    .big_box
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    body
+    {
+        bottom: red;
+    }
+    
+} 
+
+@media screen and (max-width :1373px) {
+    
+    
+    
+    .IMG3
+    {
+        width: 255px;
+        height: 320px;
+        
+        background-image: url(/image\ 19.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        
+    }
+    .IMG4
+    {
+        width: 320px;
+        height: 240px;
+        
+        background-image: url(/c4e83cbf926e63efe881b44d767d0524.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+}
